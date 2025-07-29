@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                      
+    "module": "commonjs",                    
+    "rootDir": "./src",                      
+    "outDir": "./dist",                      
+    "strict": true,                          
+    "esModuleInterop": true,                 // ✅ Fix default import issue
+    "allowSyntheticDefaultImports": true,    // ✅ Allow default imports from CJS modules
+    "skipLibCheck": true,                    
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",              
+    "resolveJsonModule": true,               
+    "types": ["node", "express"],            
+   "typeRoots": ["./node_modules/@types"]
+ // ✅ Custom type extensions (e.g., req.user)
+  },
+  "include": ["src"],                   
+  "exclude": ["node_modules", "dist"]        
+}

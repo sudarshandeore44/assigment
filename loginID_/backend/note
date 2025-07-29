@@ -1,0 +1,9 @@
+MONGO_PORT=27017
+MONGO_URI=mongodb://username:password@localhost:27017/mydatabase
+JWT_SECRET=your_secret_key
+EMAIL_USER=sudarshandeore43@gmail.com
+EMAIL_PASS=
+GOOGLE_CLIENT_ID=your_google_client_id
+
+
+
